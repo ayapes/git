@@ -1,204 +1,225 @@
 /* へっだー */
 
-header{
-    background:rgb(9, 51, 3);
-    color:rgb(238, 227, 177);
-    border-bottom:2px solid rgb(238, 227, 177);
+header {
+  background: rgb(9, 51, 3);
+  color: rgb(238, 227, 177);
+  border-bottom: 2px solid rgb(238, 227, 177);
 }
 
-.headermenu{
-    display: flex;
-    justify-content: right;
-    padding: 0.8rem 1.5rem;
-    align-items: center;
-
+.headermenu {
+  display: flex;
+  justify-content: right;
+  padding: 0.8rem 1.5rem;
+  align-items: center;
 }
 
-.headermenu .item01 ul{
-    display: flex;
+.headermenu .item01 ul {
+  display: flex;
 }
 
-.headermenu .item01 ul li{
-    font-size:70%;
-    padding: 0 1rem;
-    line-height: 100%;
-    border-left:1px solid rgb(238, 227, 177);
+.headermenu .item01 ul li {
+  font-size: 70%;
+  padding: 0 1rem;
+  line-height: 100%;
+  border-left: 1px solid rgb(238, 227, 177);
 }
 
-.headermenu .item02{
-    border:1px solid rgb(238, 227, 177);
-    padding: 0.2rem 1.5rem;
-    line-height: 100%;
-    font-size: 70%;
-
+.headermenu .item02 {
+  border: 1px solid rgb(238, 227, 177);
+  padding: 0.2rem 1.5rem;
+  line-height: 100%;
+  font-size: 70%;
 }
 
-.headermenu .item03{
-    margin-left: 0.5rem;
-    background:#444;
-    color:#FFF;
-    font-size:70%;
+.headermenu .item03 {
+  margin-left: 0.5rem;
+  background: #444;
+  color: #fff;
+  font-size: 70%;
 }
-.headermenu .item03 input[type="text"]{
-    width: 6rem;
-    line-height: 200%;
-}
-
-.headermenu .item03 input[type="submit"]{
-    padding: 0 0.5rem;
-    line-height: 200%;
+.headermenu .item03 input[type="text"] {
+  width: 6rem;
+  line-height: 200%;
 }
 
-.headermenu .item03 input[type="submit"]:hover{
-    cursor: pointer;
+.headermenu .item03 input[type="submit"] {
+  padding: 0 0.5rem;
+  line-height: 200%;
 }
 
-.headermenu .item03:after{
-    content:url(img/search.png);
-    vertical-align:bottom;
-    width: 20px;
+.headermenu .item03 input[type="submit"]:hover {
+  cursor: pointer;
 }
 
-#logo{
-    text-align: center;
-    padding: 1rem 0 2.5rem;
+.headermenu .item03:after {
+  content: url(img/search.png);
+  vertical-align: bottom;
+  width: 20px;
+}
+
+#logo {
+  text-align: center;
+  padding: 1rem 0 2.5rem;
 }
 
 /* NAV */
 
-nav{
-    background:rgb(9, 51, 3);
-    color:rgb(238, 227, 177);
+nav {
+  background: rgb(9, 51, 3);
+  color: rgb(238, 227, 177);
 }
 
-nav ul{
-    display: flex;
-    justify-content: center;
-    padding: 0.5rem;
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
 }
 
-nav ul li{
-    border-left:1px solid rgb(238, 227, 177);
-    padding: 0 0.8rem;
-    font-size:95%;
-    line-height: 100%;
+nav ul li {
+  border-left: 1px solid rgb(238, 227, 177);
+  padding: 0 0.8rem;
+  font-size: 95%;
+  line-height: 100%;
 }
 
-nav ul li:last-child{
-    border-right:1px solid rgb(238, 227, 177);
+nav ul li:last-child {
+  border-right: 1px solid rgb(238, 227, 177);
 }
 
 /* ペァンくずリスト */
 
-#crumb{
-    width: 100%;
-    max-width:1000px;
-    margin: 0 auto 1.5rem;
-    display: flex;
-    justify-content: space-between;
+#crumb {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-#crumb ul{
-    display: flex;
-    padding: 0.5rem;
+#crumb ul {
+  display: flex;
+  padding: 0.5rem;
 }
 
-#crumb ul li{
-    font-size:70%;
-    padding-right: 0.2rem;
+#crumb ul li {
+  font-size: 70%;
+  padding-right: 0.2rem;
 }
 
-#crumb ul li:after{
-    content:">";
-    padding: 0.5rem;
+#crumb ul li:after {
+  content: ">";
+  padding: 0.5rem;
 }
 
-#crumb ul li:last-child:after{
-    color:#FFF;
+#crumb ul li:last-child:after {
+  color: #fff;
 }
 
-#crumb #sns{
-    padding-top: 0.8rem;
+#crumb #sns {
+  padding-top: 0.8rem;
 }
 
 /* ページタイトル */
-h2{
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto 1rem;
-    font-size:170%;
+h2 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 1rem;
+  font-size: 170%;
 }
 /* お知らせ欄 */
 
-#newitems{
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto 2rem;
-    font-size:85%;
-    display: flex;
-    justify-content: space-between;
+#newitems {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  font-size: 85%;
+  display: flex;
+  justify-content: space-between;
 }
 
-#newitems .red{
-    display: block;
-    color:red;
+#newitems .red {
+  display: block;
+  color: red;
 }
 
-#area{
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto 1rem;
-    background:rgb(255, 206, 178);
+#area {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 1rem;
+  background: rgb(255, 206, 178);
 }
 
-#area ul{
-    display: flex;
-    justify-content: center;
-    padding: 0.5rem 0;
+#area ul {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
 }
 
-#area ul li{
-    border:1px solid orangered;
-    background:#FFF;
-    padding: 0.2rem 0.7rem;
-    margin: 0.3rem;
-    border-radius: 5px;
+#area ul li {
+  border: 1px solid orangered;
+  background: #fff;
+  padding: 0.2rem 0.7rem;
+  margin: 0.3rem;
+  border-radius: 5px;
 }
 
-#area ul li p{
-    font-size:80%;
+#area ul li p {
+  font-size: 80%;
+  padding-top: 1px;
 }
 
-#area ul li p:before{
-    content: '';/*何も入れない*/
-  display: inline-block;/*忘れずに！*/
-  width: 12px;/*画像の幅*/
-  height: 12px;/*画像の高さ*/
+#area ul li p:before {
+  content: ""; /*何も入れない*/
+  display: inline-block; /*忘れずに！*/
+  width: 12px; /*画像の幅*/
+  height: 12px; /*画像の高さ*/
   background-image: url(img/arrow01.png);
   background-size: contain;
   vertical-align: middle;
+  margin-right: 1px;
 }
 
-#area ul li p:last-child :before{
-    content: '';/*何も入れない*/
-  display: inline-block;/*忘れずに！*/
-  width: 12px;/*画像の幅*/
-  height: 12px;/*画像の高さ*/
+#area ul li p.last:before {
+  content: ""; /*何も入れない*/
+  display: inline-block; /*忘れずに！*/
+  width: 12px; /*画像の幅*/
+  height: 12px; /*画像の高さ*/
   background-image: url(img/arrow02.png);
   background-size: contain;
   vertical-align: middle;
 }
 
-/* メインのとこ */
-
-#main{
-   width: 100%;
-   max-width: 1000px;
-   margin: 0 auto; 
+#info {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 1rem;
+  border: 1px solid red;
+  text-align: center;
+  font-size: 80%;
+  padding: 0.51rem 0;
 }
 
-img{
-    vertical-align: bottom;
+#info2 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 1rem;
+  background: red;
+  color: #fff;
+  text-align: center;
+  font-size: 80%;
+  padding: 0.51rem 0;
+}
+
+/* メインのとこ */
+
+#main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  vertical-align: bottom;
 }
 #hokka,
 #touhoku,
@@ -210,66 +231,146 @@ img{
 #chu,
 #shikoku,
 #kyu,
-#oki{
-    position: relative;
-    padding-bottom: 4rem;
-    margin-bottom: 3rem;
+#oki {
+  position: relative;
+  padding-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
-.lineup{
-    position: absolute;
-    bottom:0;
-    right:3%;
-    font-size:80%;
-    background:rgb(199, 199, 199);
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
+.lineup {
+  position: absolute;
+  bottom: 0;
+  right: 3%;
+  font-size: 80%;
+  background: rgb(199, 199, 199);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
 }
 
-.lineup:hover{
-    cursor: pointer;
-    transform: translate(2px,2px);
+.lineup:hover {
+  cursor: pointer;
+  transform: translate(2px, 2px);
 }
 
-h3{
-    background:rgb(141, 141, 141);
-    color:#FFF;
-    line-height: 200%;
-    font-size:120%;
-    text-indent: 1rem;
+h3 {
+  background: rgb(141, 141, 141);
+  color: #fff;
+  line-height: 200%;
+  font-size: 120%;
+  text-indent: 1rem;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0 1rem;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 1rem;
 }
 
-.item{
-    width: 30%;
-    margin:  1.5rem 0;
+.item {
+  width: 30%;
+  margin: 1.5rem 0;
 }
 
-.img{
-    border:1px solid #CCC;
+.img {
+  border: 1px solid #ccc;
 }
 
-.title{
-    color:rgb(177, 143, 31);
-    font-weight: 300;
-    font-size:90%;
-    padding: 0.2rem 0;
+.title {
+  color: rgb(177, 143, 31);
+  font-weight: 300;
+  font-size: 90%;
+  padding: 0.2rem 0;
 }
 
-.price{
-    font-size:90%;
+.price {
+  font-size: 90%;
 }
 
-.date{
-    font-size:75%;
-    color:rgb(177, 177, 177);
+.date {
+  font-size: 75%;
+  color: rgb(177, 177, 177);
 }
-.hanbai{
-    font-size:75%;
+.hanbai {
+  font-size: 75%;
+}
+
+/* フッター */
+
+#navbottom {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 1rem;
+  padding: 0.51rem 0;
+}
+
+#navbottom p {
+  font-size: 78%;
+  line-height: 140%;
+}
+
+#navbottom p:before {
+  content: "※";
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 1rem;
+  padding: 0 2rem;
+}
+
+#bottom p {
+  border: 1px solid rgb(114, 114, 114);
+  color: rgba(70, 35, 0, 0.654);
+  font-size: 80%;
+  padding: 0.2rem 0.8rem;
+  border-radius: 5px;
+}
+
+footer {
+  background: rgb(9, 51, 3);
+  width: 100%;
+}
+
+.f_icon {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.f_icon ul {
+  display: flex;
+  justify-content: center;
+}
+
+.f_icon ul li {
+  padding: 0 0.7rem;
+  width: 6%;
+}
+
+.f_icon ul li:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.f_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.f_container .item {
+  width: 23%;
+  color:rgb(255, 235, 170);
+}
+
+.f_container .item .box01 .title{
+    border-bottom:1px solid rgb(255, 235, 170);
+    color:rgb(255, 235, 170);
 }
