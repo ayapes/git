@@ -1,0 +1,184 @@
+*{
+font-size:10px;
+line-height: 100%;
+box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.box{
+    width: 100%;
+    max-width:750px;
+    border:1px solid #CCC;
+    border-radius: 7px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    display:flex;
+    justify-content: space-between;
+    background:rgb(224, 117, 29);
+    color:#FFF;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.title h2{
+    width: 55%;
+    padding: 0 1%;
+    font-size:140%;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.title .area{
+    font-weight: 600;
+    font-size:100%;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    padding: 2%;
+}
+/* 1 */
+
+.container .main{
+    width: 28%;
+}
+/* 2 */
+
+.container .detail{
+    width: 50%;
+    padding-left: 1.5%;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 180%;
+    color:rgb(66, 66, 233);
+    margin-bottom: 0.5rem;
+}
+
+.tag{
+    margin-bottom: 2rem;
+}
+.tag span{
+    display: inline-block;
+    padding: 0.3rem 0.3rem;
+    font-weight: 600;
+    margin-right:0.5%;
+    font-size:95%;
+}
+
+.tag span:first-child{
+    background:rgb(134, 97, 204);
+    color:#FFF;
+}
+
+.tag span:nth-child(2){
+    border:1px solid rgb(27, 86, 126);
+    color:rgb(27, 86, 126);
+}
+
+.tag span:last-child{
+    border:1px solid #999;
+    color:#999;
+}
+
+.setsumei{
+    font-size:120%;
+    line-height: 130%;
+    margin-bottom: 1rem;
+}
+
+.address,
+.access{
+    font-size:110%;
+    margin-bottom: 1rem;
+    line-height: 140%;
+}
+
+.access{
+    position: relative;
+}
+.address span,
+.access span{
+    font-size:100%;
+    font-weight: 600;
+}
+
+.access .map{
+    display: block;
+    position: absolute;
+    top:0.5rem;
+    right:-15%;
+    font-weight: 600;
+    font-size:0.9rem;
+    color:rgb(1, 48, 150);
+    border:1px solid rgb(1, 48, 150);
+    padding: 0.4rem 0.6rem;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #FFF, rgb(183, 214, 248));
+}
+
+
+
+/* 3 */
+.container .price{
+    width: 22%;
+    padding-left: 1.5%;
+}
+
+.saiyasu{
+    text-align: right;
+    font-size:100%;
+}
+
+.saiyasu span{
+    display: block;
+    text-align: right;
+    margin: 0.5rem 0;
+}
+
+.saiyasu span:after{
+    content: '';/*何も入れない*/
+    display: inline-block;/*忘れずに！*/
+    width: 13px;/*画像の幅*/
+    height: 13px;/*画像の高さ*/
+    background-image: url(img/hatena.png);
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 0.3rem;
+}
+
+.kakaku{
+    font-weight: 600;
+    font-size:190%;
+    margin-bottom: 0.5rem;
+    text-align: right;
+}
+
+.kakaku span{
+    font-size:80%;
+    font-weight: 100;
+}
+
+.ninzuu{
+    text-align: right;
+    font-size:130%;
+    margin-bottom: 1.5rem;
+}
+
+.main02{
+    text-align: right;
+}
+
+.main02 img{width: 60%;}
